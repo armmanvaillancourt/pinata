@@ -1,0 +1,7 @@
+on: push
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - run: id 
